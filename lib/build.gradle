@@ -4,12 +4,12 @@ android {
 
     useLibrary 'org.apache.http.legacy'
 
-    compileSdkVersion 26
+    compileSdkVersion 27
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 20180414
-        versionName "2.5.7.v2"
+        versionCode 20180831
+        versionName "2.5.7.v3"
     }
 
     buildTypes {

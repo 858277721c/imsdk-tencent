@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fanwe.imsdk_tencent">
+    package="com.sd.imsdk_tencent">
 
     <application
         android:allowBackup="true"

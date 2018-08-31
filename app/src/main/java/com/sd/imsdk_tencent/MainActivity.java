@@ -1,4 +1,4 @@
-package com.fanwe.imsdk_tencent;
+package com.sd.imsdk_tencent;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
