@@ -17,12 +17,18 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application>
-        <!--  消息收发service -->
+
+        <!-- Android 9.0兼容配置 -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <!--  消息收发 service -->
         <service
             android:name="com.tencent.qalsdk.service.QalService"
             android:exported="false"
             android:process=":QALSERVICE"></service>
-        <!--  消息收发辅助service -->
+        <!--  消息收发辅助 service -->
         <service
             android:name="com.tencent.qalsdk.service.QalAssistService"
             android:exported="false"
@@ -52,6 +58,7 @@
                 <action android:name="android.intent.action.TIMEZONE_CHANGED" />
             </intent-filter>
         </receiver>
+
     </application>
 
 </manifest>
